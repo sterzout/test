@@ -1,179 +1,168 @@
-
-body{
-    background-color: rgb(228, 250, 213)
-}
-
-
-.link{
-    color: blue
-}
-.one{
-    color: black;
-    background-color: white;
-    font-family:  Arial, Helvetica, sans-serif, Times, serif, sans-serif;
-    font-weight: 1100;
-    width: 26%;
-    height: 10%;
-    border: 1px solid black;
-}
-.onespecial{
-    color: black;
-    background-color: white;
-    font-family:  Arial, Helvetica, sans-serif, Times, serif, sans-serif;
-    font-weight: 1100;
-    width: 11%;
-    border: 6px solid black;
-}
-.two{
-    color: black;
-    background-color: white;
-    font-family:  Arial, Helvetica, sans-serif, Times, serif, sans-serif;
-    font-weight: 4000;
-    width: 24%;
-    height: 10%;
-    border: 2px solid black;
-
-}
-.three{
-    color: black;
-    background-color: white;
-    font-family:  Arial, Helvetica, sans-serif, Times, serif, sans-serif;
-    font-weight: 2000;
-    border: 3px solid black;
-
-}
-h4{
-    color: black;
-}
-p,h1,h2,.center{
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+}
+
+h1, h2, h3, h4, p {
+    margin: 20px auto;
+    line-height: 1.5;
+}
+
+h1.one {
+    color: navy;
+    font-size: 2.5em;
+}
+
+h2.two {
+    font-size: 1.8em;
+    color: darkslategray;
+}
+
+h1.three, h3.three {
+    font-size: 1.5em;
+    color: darkblue;
+}
+
+/* Container for background description */
+.background-description {
+    margin: 30px auto;
+    padding: 15px;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    line-height: 1.6;
+}
+
+.background-description p {
+    margin: 10px 0;
+    color: darkslategray;
+    font-size: 1.1em;
+}
+
+.imagesSalim, .images1 {
     display: block;
-
+    margin: 0 auto;
+    border-radius: 10px;
 }
 
-
-
-.imagesSalim{
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    border: 1px solid black;
-
-}
-.education-section {
-    display: flex;
-    align-items: center; /* This will vertically center the items */
-}
-
-.images1 {
-    position: absolute;
-    top: 800px;
-    left:980px ;
-    margin-right: 110px; /* Adjust as needed for spacing */
-    border: 1px solid black; /* Remove the border or adjust as needed */
-}
-.images2 {
-    position: absolute;
-    left:1000px ;
-    margin-right: 110px; /* Adjust as needed for spacing */
-    border: 1px solid black; /* Remove the border or adjust as needed */
-}
-
-.university-text,.high-school-text {
+/* Project section styling */
+.project {
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: left;
 }
 
+/* Styling for the project titles */
+.project-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: inline-block; /* Ensures the box fits tightly around the content */
 
-
-.onecontact{
-    color: black;
-    background-color: white;
-    font-family:  Arial, Helvetica, sans-serif, Times, serif, sans-serif;
-    font-weight: 1100;
-    width: 13%;
-    height: 10%;
-    border: 1px solid black;
+    text-align: center; /* Ensures text inside the title is centered */
+    display: block; /* Ensures block-level behavior */
+    margin-left: auto; /* Auto margin for centering */
+    margin-right: auto; /* Auto margin for centering */
+    padding: 5px 10px;
+    background-color: white; /* Box background */
+    border-radius: 8px;
+    color: darkblue; /* Text color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-#first{
-    color: black;
-    background-color: white;
-    font-family:  Arial, Helvetica, sans-serif, Times, serif, sans-serif;
-    font-weight: 1100;
-    width: 18%;
-    height: 10%;
-    border: 1px solid black;
-}
-.imagescontact{
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    border: 1px solid black;
-}
-.textcontact{
-        text-align: center;
-    
+
+
+
+/* Hover effect for project titles */
+.project-title:hover {
+    transform: translateY(-5px); /* Slightly float effect on hover */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Enhanced hover shadow */
     
 }
-#second{
-    color: black;
+
+/* University section styling */
+.university-section {
+    margin: 40px auto;
+    padding: 10px;
+    max-width: 900px;
     background-color: white;
-    font-family:  Arial, Helvetica, sans-serif, Times, serif, sans-serif;
-    font-weight: 1100;
-    width: 18%;
-    height: 10%;
-    border: 1px solid black;
-}
-#third{
-    color: black;
-    background-color: white;
-    font-family:  Arial, Helvetica, sans-serif, Times, serif, sans-serif;
-    font-weight: 1100;
-    width: 6%;
-    height: 10%;
-    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
-#aboutme{
-
-    color: black;
-    background-color: white;
-    font-family:  Arial, Helvetica, sans-serif, Times, serif, sans-serif;
-    font-weight: 1100;
-    width: 11%;
-    height: 10%;
-    border: 1px solid black;
-
+.university-text {
+    text-align: center;
+    margin-top: 20px;
 }
-#minime{
-    margin-left: auto;
-    margin-right: auto;
+
+.university-text ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: left;
+}
+
+.university-text li {
+    margin: 10px 0;
+}
+
+.university-text .project {
+    text-align: center;
+    margin: 20px auto;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: gray;
+    margin: 30px auto;
+    max-width: 80%;
+}
+
+/* Styling for bigger titles with hover effect */
+h1.one, h2.two {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: darkblue;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for bigger titles */
+h1.one:hover, h2.two:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+}
+
+/* Centering titles like DataAnnotation and job titles */
+.title-centered {
+    text-align: center;
     display: block;
-    border: 1px solid black;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: darkblue;
+    margin: 20px auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-#twoaboutone{
-    color: black;
-    background-color: white;
-    font-family:  Arial, Helvetica, sans-serif, Times, serif, sans-serif;
-    font-weight: 1100;
-    height: 10%;
-    border: 1px solid black;
-}
-#twoabouttwo{
-    color: black;
-    background-color: white;
-    font-family:  Arial, Helvetica, sans-serif, Times, serif, sans-serif;
-    font-weight: 1100;
-    height: 10%;
-    border: 1px solid black;
-}#twoaboutthree{
-    color: black;
-    background-color: white;
-    font-family:  Arial, Helvetica, sans-serif, Times, serif, sans-serif;
-    font-weight: 1100;
-    height: 10%;
-    border: 1px solid black;
+/* Hover effect for the centered titles */
+.title-centered:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
